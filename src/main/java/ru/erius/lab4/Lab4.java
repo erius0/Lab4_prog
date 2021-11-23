@@ -64,7 +64,7 @@ public class Lab4 {
 
             @Override
             public void stop(Employee emp) {
-                System.out.println(emp.getName() + " закончил работать. Баланс: " + emp.getMoney());
+                System.out.println(emp.getName() + " закончил работать");
             }
         });
         try {
